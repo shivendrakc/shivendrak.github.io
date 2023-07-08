@@ -283,14 +283,6 @@ h3{
 }
 .home .intro .social-icons a{
     font-size: var(--h3-font-size);
-    transition: 0.4s;
-}
-.home .intro .social-icons a i{
-    transition: 0.5s;
-}
-.home .intro .social-icons a:hover i{
-    transform: translateY(-15px);
-    color: var(--col_primary);
 }
 /*Scroll down*/
 .scroll-down{
@@ -341,11 +333,6 @@ h3{
     left: 40%;
     display: block;
     animation: ani-mouse 1.5s linear infinite;
-}
-.profile-img{
-    width: 30%;
-    height: auto;
-    border-radius: 50%;
 }
 /*About*/
 .about-img{
@@ -400,16 +387,16 @@ h3{
     top: -2.5rem;
 }
 .fact-item{
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 5rem;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-top: var(--m-2-5);
     text-align: center;
 }
 .fact-item i{
     font-size: var(--h2-font-size);
     color: var(--col_grey);
 }
-/*Services*/ /*
+/*Services*/
 .services .service-item{
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -440,7 +427,7 @@ h3{
 }
 .text a{
     color: var(--col_primary);
-} */
+}
 /*Portfolio*/
 .portfolio .portfolio-filter{
     flex: 0 0 100%;
@@ -615,14 +602,14 @@ h3{
     height: 100%;
     padding: 1rem 1rem 1rem 0;
     background: none;
-    color: var(--col_dark);
+    color: #fff;
     outline: none;
     border: none;
     z-index: 1;
 }
 .contact-label{
     position: absolute;
-    top: -.8rem;
+    top: .40rem;
     width: 100%;
     font-size: var(--small-font-size);
     transition: .3s;
@@ -634,7 +621,7 @@ h3{
     resize: none;
 }
 .contact-input:focus + .contact-label{
-    font-size: 18px;
+    top: -.75rem;
     left: 0;
     z-index: 10;
     color: var(--col_primary)
@@ -759,7 +746,7 @@ h3{
     border: 2px solid var(--col_primary);
 }
 .customize-theme .choose-bg .bg-1{
-    background: hsl(252, 30%, 92%);
+    background: hsl(252, 70%, 92%);
     color: hsl(252, 30%, 17%);
 }
 .customize-theme .choose-bg .bg-2{
